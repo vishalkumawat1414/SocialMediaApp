@@ -24,7 +24,7 @@ const app = express();
 app.use(
 	cors({
 		credentials: true,
-		origin: "http://localhost:3000",
+		origin: "https://socialmediaapp-kappa.vercel.app/#/login",
 		optionSuccessStatus: 200,
 	}),
 );
