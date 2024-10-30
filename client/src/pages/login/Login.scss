@@ -1,0 +1,40 @@
+.Login {
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	.heading {
+		text-align: center;
+	}
+
+	.login_box {
+		padding: 40px;
+		min-width: 400px;
+		border: 2px solid black;
+	}
+	label,
+	input {
+		display: block;
+		width: 100%;
+		margin-block: 8px;
+	}
+	input {
+		padding: 8px 16px;
+	}
+
+	.submit {
+		background-color: brown;
+		color: white;
+		border: none;
+		margin-top: 16px;
+	}
+	.submit:hover {
+		background-color: burlywood;
+		color: black;
+        font-weight: bolder;
+	}
+    .subheading{
+       text-align: center;
+    }
+}
